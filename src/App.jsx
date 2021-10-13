@@ -3,18 +3,18 @@ import {
     BrowserRouter,
     Switch,
     Route,
-    Link, Redirect
-} from "react-router-dom";
-import {useSelector, useDispatch} from "react-redux";
+    Link
+} from 'react-router-dom';
+import {useSelector, useDispatch} from 'react-redux';
 import {
     activePageActionCreator,
     activePageSelector,
     isAuthenticatedActionCreator,
     isAuthenticatedSelector,
     PrivateRoute
-} from "./features";
-import Page01 from "../../play-vue/src/views/Page01";
-import Page02 from "../../play-vue/src/views/Page02";
+} from './features';
+import Page01 from './views/Page01';
+import Page02 from './views/Page02';
 import './App.scss';
 
 function App() {
