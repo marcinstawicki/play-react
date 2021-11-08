@@ -1,5 +1,5 @@
 # play-react
-## class-based approach
+## class-based approach & hook-based approach
 ### FUNCTIONAL SCOPE:
 #### navigation:
 * public pages: page01, page02
