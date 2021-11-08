@@ -1,0 +1,5 @@
+.grandchild {
+  & > :nth-child(n){display:inline-block;vertical-align:middle;padding:7px 15px;}
+  & > :nth-child(1){min-width:45px;text-align:right;font-size:0.8em;}
+  & > :nth-child(2){min-width:250px;text-align:left;}
+}

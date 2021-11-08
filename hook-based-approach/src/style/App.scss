@@ -1,0 +1,7 @@
+* {box-sizing: border-box;padding:0;margin:0;font-family: Arial, Helvetica, sans-serif;}
+#nav {
+  padding:5px;background-color:#F6F6F6;
+  & > :nth-child(n){display:inline-block;vertical-align:middle;padding:7px 15px;border-bottom:3px solid transparent;text-decoration:none;color:#000080;}
+  & > :nth-child(n).active {border-bottom:3px solid #000080;}
+  & > :nth-child(4) {border:1px solid #000080;border-radius:5px;background-color:#FFFFFF;color:#000080;}
+}

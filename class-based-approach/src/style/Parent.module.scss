@@ -1,0 +1,29 @@
+#parent {
+  & > :nth-child(n){padding:5px;}
+  & > :nth-child(1){color:#999999;text-transform:uppercase;padding:15px;}
+  & > :nth-child(2){
+    & > :nth-child(n){padding:5px 15px;border-radius:5px;margin:5px;vertical-align:middle;}
+    & > div {display:inline-block;background-color:#CCE5CC;color:#008000;font-size:0.8em;}
+    & > input {display:block;background-color:#F2F2F2;border:1px solid #EEEEEE;padding:10px;width:250px;}
+    & > button {background-color:#008000;color:#FFFFFF;border:none;padding:10px 15px;font-size:1.2em;text-transform:uppercase;cursor:pointer;}
+    & > :nth-child(4){background-color:#E5CCCC;color:#800000;}
+  }
+  & > :nth-child(3){color:#999999;text-transform:uppercase;padding:15px;}
+  & > :nth-child(4){
+    background-color:#000080;margin:5px;vertical-align: middle;border-radius:5px;
+    & > :nth-child(n){
+      padding:5px;margin:5px;
+      & > * {padding:2px;margin:2px;vertical-align: middle;}
+    }
+    & > :nth-child(1){border:none;border-radius:3px;width:250px;padding:10px;color:#000080;font-size:1em;}
+    & > :nth-child(2){color:#CCCCE5;font-size:0.8em;}
+    & > :nth-child(3){color:#CCCCE5;font-size:0.8em;}
+    & > :nth-child(4){color:#CCCCE5;font-size:0.8em;}
+    & > :nth-child(5){
+      color:#CCCCE5;font-size:0.8em;
+      & > * {padding:5px;margin:0 5px;color:#000080;border-radius:5px;border:none;font-size:1.2em;}
+    }
+  }
+  & > :nth-child(5){color:#999999;text-transform:uppercase;padding:15px;}
+  & > :nth-child(6).msg {display:inline-block;padding:5px 15px;background-color:darkgoldenrod;color:#FFFFFF;border-radius:5px;}
+}

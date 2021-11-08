@@ -1,0 +1,9 @@
+.child {
+  background-color:#F2F2F2;margin:1px 0;
+  & > :nth-child(n){display:inline-block;vertical-align:middle;padding:7px 15px;}
+  & > :nth-child(1){
+    min-width:250px;
+    & > :nth-child(3){min-width:45px;text-transform:uppercase;color:#777777;}
+  }
+  & > :nth-child(2){background-color:#800000;color:#FFFFFF;border:none;border-radius:5px;cursor:pointer;}
+}

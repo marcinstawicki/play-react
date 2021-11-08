@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page02 should match the snapshot 1`] = `
+<div
+  id="page02"
+>
+  <div>
+    this is page 02 and its public content is shown after user has navigated to it
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    redirect to page 01
+  </button>
+</div>
+`;
